@@ -1,3 +1,16 @@
+.fix-badge {
+  display: block;
+  width: 100%;
+  max-width: 960px;
+  padding-right: 5px;
+  margin: 30px auto -30px;
+  padding-left: 10px;
+  text-align: right;
+  box-sizing: border-box;
+  position: relative;
+  z-index: 999;
+}
+
 .header {
   display: flex;
   width: 100%;
