@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="./logo.svg" />
+    <link rel="stylesheet" href="./assets/index.css" />
+    <title>A unique code generator</title>
+  </head>
+
+  <body>
+    <div class="fix-badge">
+      <a style="margin: 0 3px" href="https://github.com/linpengteng/uniquener"><img src="https://img.shields.io/badge/github-doc-green?logo=github&style=flat" alt="github" /></a>
+      <a style="margin: 0 3px" href="https://www.npmjs.com/package/uniquener"><img src="https://img.shields.io/npm/v/uniquener.svg" alt="npm package" /></a>
+    </div>
+
+    <section class="header">
+      <h2>Uniquener —— A unique code generator</h2>
+    </section>
+
+    <section class="coder">
+      <div class="coder-left">
+        <div class="coder-config">
+          <div class="config-header">- Radix</div>
+          <div class="config-options">
+            <div class="options-item active" option-type="radix" option-value="16">16</div>
+            <div class="options-item" option-type="radix" option-value="26">26</div>
+            <div class="options-item" option-type="radix" option-value="36">36</div>
+          </div>
+        </div>
+        <div class="coder-config">
+          <div class="config-header">- Random</div>
+          <div class="config-options">
+            <div class="options-item active" option-type="random" option-value="?">?</div>
+            <div class="options-item" option-type="random" option-value="*">*</div>
+            <div class="options-item" option-type="random" option-value="#">#</div>
+          </div>
+        </div>
+        <div class="coder-config">
+          <div class="config-header">- Run Mode</div>
+          <div class="config-options">
+            <div class="options-item active" option-type="runMode" option-value="reset">reset</div>
+            <div class="options-item" option-type="runMode" option-value="append">append</div>
+          </div>
+        </div>
+        <div class="coder-config">
+          <div class="config-header">- Run Count</div>
+          <div class="config-options">
+            <div class="options-item" option-type="runCount" option-value="1">1</div>
+            <div class="options-item active" option-type="runCount" option-value="5">5</div>
+            <div class="options-item" option-type="runCount" option-value="10">10</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="coder-right">
+        <div class="search-header">
+          <textarea class="search-input" placeholder="????????-????-[1-5]???-[8-b]???-????????????" autofocus></textarea>
+          <div class="search-button">Run</div>
+        </div>
+
+        <div class="search-result-view">
+          <div class="search-result-record"></div>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://linpengteng.github.io/resource/uniquener/index.browser.js"></script>
+    <script src="./assets/index.js"></script>
+  </body>
+</html>
